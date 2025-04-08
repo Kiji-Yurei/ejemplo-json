@@ -1,0 +1,37 @@
+{
+  "title": "Mi Página Sencilla",
+  "header": {
+    "logo": "logo.png",
+    "nav": [
+      { "text": "Inicio", "href": "/" },
+      { "text": "Sobre mí", "href": "/sobre-mi" },
+      { "text": "Contacto", "href": "/contacto" }
+    ]
+  },
+  "main": {
+    "sections": [
+      {
+        "type": "hero",
+        "headline": "Bienvenido a mi sitio web",
+        "subheadline": "Una página sencilla hecha con cariño",
+        "button": {
+          "text": "Saber más",
+          "href": "#sobre"
+        }
+      },
+      {
+        "type": "about",
+        "id": "sobre",
+        "title": "Sobre mí",
+        "content": "Hola, soy un entusiasta del desarrollo web. Esta es una pequeña muestra de lo que puedo hacer."
+      }
+    ]
+  },
+  "footer": {
+    "text": "© 2025 Mi Página Sencilla. Todos los derechos reservados.",
+    "social": [
+      { "platform": "Twitter", "url": "https://twitter.com/usuario" },
+      { "platform": "GitHub", "url": "https://github.com/usuario" }
+    ]
+  }
+}
